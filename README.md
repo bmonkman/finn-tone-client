@@ -115,7 +115,7 @@ api.livenessCheck(callback);
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://finntest.commitzero.com/v1*
+All URIs are relative to *https://finn-tone.commitzero.com/v1*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

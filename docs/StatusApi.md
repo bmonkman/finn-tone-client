@@ -1,6 +1,6 @@
 # FinnToneApi.StatusApi
 
-All URIs are relative to *https://finntest.commitzero.com/v1*
+All URIs are relative to *https://finn-tone.commitzero.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
