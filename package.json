@@ -42,5 +42,18 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmonkman/finn-tone-client.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bmonkman/finn-tone-client/issues"
+  },
+  "homepage": "https://github.com/bmonkman/finn-tone-client#readme"
 }
