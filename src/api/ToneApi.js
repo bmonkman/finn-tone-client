@@ -36,8 +36,8 @@ export default class ToneApi {
 
 
     /**
-     * Callback function to receive the result of the loadToneById operation.
-     * @callback module:api/ToneApi~loadToneByIdCallback
+     * Callback function to receive the result of the loadToneByUserId operation.
+     * @callback module:api/ToneApi~loadToneByUserIdCallback
      * @param {String} error Error message, if any.
      * @param {module:model/Tone} data The data returned by the service call.
      * @param {String} response The complete HTTP response.
@@ -46,14 +46,14 @@ export default class ToneApi {
     /**
      * Get tone of a user
      * @param {String} userId The id of the user whose tone to retrieve
-     * @param {module:api/ToneApi~loadToneByIdCallback} callback The callback function, accepting three arguments: error, data, response
+     * @param {module:api/ToneApi~loadToneByUserIdCallback} callback The callback function, accepting three arguments: error, data, response
      * data is of type: {@link module:model/Tone}
      */
-    loadToneById(userId, callback) {
+    loadToneByUserId(userId, callback) {
       let postBody = null;
       // verify the required parameter 'userId' is set
       if (userId === undefined || userId === null) {
-        throw new Error("Missing the required parameter 'userId' when calling loadToneById");
+        throw new Error("Missing the required parameter 'userId' when calling loadToneByUserId");
       }
 
       let pathParams = {

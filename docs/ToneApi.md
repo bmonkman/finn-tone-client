@@ -4,13 +4,13 @@ All URIs are relative to *https://finntest.commitzero.com/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**loadToneById**](ToneApi.md#loadToneById) | **GET** /tone/{userId} | Get tone of a user
+[**loadToneByUserId**](ToneApi.md#loadToneByUserId) | **GET** /tone/{userId} | Get tone of a user
 
 
 
-## loadToneById
+## loadToneByUserId
 
-> Tone loadToneById(userId)
+> Tone loadToneByUserId(userId)
 
 Get tone of a user
 
@@ -21,7 +21,7 @@ import FinnToneApi from 'finn_tone_api';
 
 let apiInstance = new FinnToneApi.ToneApi();
 let userId = "userId_example"; // String | The id of the user whose tone to retrieve
-apiInstance.loadToneById(userId, (error, data, response) => {
+apiInstance.loadToneByUserId(userId, (error, data, response) => {
   if (error) {
     console.error(error);
   } else {
